@@ -1,0 +1,34 @@
+{
+  "name": "toolio-server",
+  "version": "1.0.0",
+  "description": "Toolio-Product-Search-Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ercanosmanoglu/toolio-server.git"
+  },
+  "keywords": [
+    "toolio",
+    "shopify"
+  ],
+  "author": "Ercan O.",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/ercanosmanoglu/toolio-server/issues"
+  },
+  "homepage": "https://github.com/ercanosmanoglu/toolio-server#readme"
+}
